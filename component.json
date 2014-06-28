@@ -1,0 +1,33 @@
+{
+  "name": "event-emitter",
+  "version": "0.3.2",
+  "description": "Environment agnostic event emitter",
+  "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
+  "keywords": [
+    "event",
+    "events",
+    "trigger",
+    "observer",
+    "listener",
+    "emitter",
+    "pubsub"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anyroadcom/event-emitter.git"
+  },
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "pipe.js",
+    "all-off.js",
+    "has-listeners.js",
+    "unify.js"
+  ],
+
+  "dependencies": {
+    "es-shims/es5-shim": "^3.0.0",
+    "anyroadcom/es5-ext": "~0.10.5",
+    "anyroadcom/d": "~0.1.2"
+  }
+}
